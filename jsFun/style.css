@@ -1,0 +1,56 @@
+h1{
+    font-weight: lighter;
+    font-family: 'Helvetica', Helvetica, monospace;
+}
+@font-face {
+    font-family: Helvetica;
+    font-weight: lighter;
+    src: url('static/HelveticaLight.ttf');
+}
+header{
+    align-items: center;
+    vertical-align: middle;
+    width: auto;
+    position: relative;
+    text-align: center;
+}
+body{
+    background-color: #282828;
+    color: white;
+}
+
+p{
+    font-family: 'Montserrat', Montserrat, monospace;
+}
+
+button{
+    border: none;
+    background-blend-mode: overlay;
+    color: lightcoral;
+    background-color: black;
+    font-family: Montserrat;
+}
+h3{
+    margin: 35px;
+}
+div#bottom{
+    font-family: Montserrat;
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+}
+/* div#leftFoot{
+    flex: 0 0 65%;
+}
+div#rightFoot{
+    flex: 1;
+} */
+img#cat{
+    float: right;
+    content-visibility: visible;
+
+}
