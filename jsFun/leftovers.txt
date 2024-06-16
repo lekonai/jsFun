@@ -1,0 +1,8 @@
+header{
+    /* width: 100%; */
+    top: 0px;
+    padding: 1px;
+    position: sticky;
+    text-align: center;
+    background-color: white;
+}
