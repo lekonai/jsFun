@@ -5,7 +5,7 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	server:{
 		fs:{
-			allow: ['C:/Users/Omari/Documents/funny coding/js/realJsProject/jsFun/jsFun/static/HelveticaLight.ttf'],
+			allow: ['..'],
 		},
 	},
 });
